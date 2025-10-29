@@ -1,6 +1,6 @@
 
 
-# 🧩 Retrieve credentials from AWS Secrets Managers
+# 🧩 Retrieve credentials from AWS Secrets Manager
 data "aws_secretsmanager_secret_version" "example" {
   secret_id = var.secret_name
 }
